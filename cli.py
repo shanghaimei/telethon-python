@@ -19,8 +19,8 @@ logger.debug('Debug messages')
 logger.info('Useful information')
 logger.warning('This is a warning!')
 
-api_id = 381462
-api_hash = '63d2a1ad012aadb203312c405529cc8a'
+api_id = your_id
+api_hash = 'your_hash'
 client = TelegramClient('@shanghaimei', api_id, api_hash).start()
 #给自己发送一条信息
 # client.send_message('me', 'Hello! Talking to you from Telethon')
