@@ -11,8 +11,8 @@ from telethon.tl.custom import Button
 from telethon import events
 from telethon import TelegramClient
 
-bot = telegram.Bot(token = '625519397:AAGgY7pYrvN-SlOlDNvOsIkpGkxiMOcxIeo')
-updater = Updater(token='625519397:AAGgY7pYrvN-SlOlDNvOsIkpGkxiMOcxIeo')
+bot = telegram.Bot(token = 'your token')
+updater = Updater(token='your token')
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 print(bot.get_me())
